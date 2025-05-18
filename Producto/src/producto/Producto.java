@@ -44,6 +44,10 @@ public class Producto {
     public String getNombre() {
         return nombre;
     }
+    
+    public double getPrecio() {
+        return precio;
+    }
 
     public int getCantidadEnStock() {
         return cantidadEnStock;
