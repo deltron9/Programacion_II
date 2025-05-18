@@ -121,7 +121,7 @@ a estos miembros le podemos dar un atributo de visibilidad (Private o Public)
         System.out.println("TV Marca: " + marca + "\nCanal: " + canal);
     }
 
-    private void encenderTelevision() {
+    public void encenderTelevision() {
         if (!encendido) {
             encendido = true;
         } else {
@@ -129,7 +129,7 @@ a estos miembros le podemos dar un atributo de visibilidad (Private o Public)
         }
     }
 
-    private void apagarTelevision() {
+    public void apagarTelevision() {
         if (encendido) {
             encendido = false;
         } else {
