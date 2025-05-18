@@ -3,9 +3,8 @@ package autos322;
 public class Autos {
     
     public static void main(String[] args) {
-        Motor m1 = new Motor(12345, 2.0, "Nafta");
         
-        Auto a1 = new Auto("A3F412", "Hyundai", "rojo", 2018, m1);
+        Auto a1 = new Auto("A3F412", "Hyundai", Color.BLANCO, 2018, new Motor(12345, 1.5, TipoCombustible.NAFTA));
         
         System.out.println(a1);
     }
