@@ -40,6 +40,7 @@ public class Libro {
         if (paginas > numeroDePaginas) {
             throw new IllegalArgumentException("Sobrepasas la cantidad de páginas del libro.");
         } else if (paginaActual == numeroDePaginas) {
+        
             informarLibroTerminado();
         }
         this.paginaActual += paginas;
